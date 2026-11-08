@@ -46,7 +46,7 @@ main div picture img {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:flex-start;
     align-items: flex-start;
     gap: 20px;
     padding: clamp(20px, 4vw, 30px);
@@ -217,7 +217,11 @@ main div picture img {
     }
 
     #card-one {
-        grid-column: span 2;
+        grid-column: span 2;   
+    }
+
+    #card-one p {
+        max-width: 500px;
     }
 
     #card-seven {
