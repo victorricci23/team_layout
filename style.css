@@ -25,10 +25,9 @@ main {
 
     border-radius: 25px;
     background-color: #F3F4F6;
+    /* background-image: url('resources/Background_decor.svg'); */
     overflow: hidden;
-
-    grid-template-columns: repeat(1, minmax(200px, 1fr));
-    grid-template-rows: repeat(1, minmax(200px, 1fr));
+    
 }
 
 main div picture {
@@ -50,8 +49,7 @@ main div picture img {
     justify-content:flex-start;
     align-items: flex-start;
     gap: 20px;
-    padding: clamp(30px, 4vw, 30px);
-    padding-bottom: 100px;
+    padding: clamp(20px, 4vw, 30px);
     background-image: url('resources/Background_decor.svg');
     background-repeat: no-repeat;   /* impede a repetição */
 }
@@ -65,7 +63,7 @@ main div picture img {
     max-width: 420px;
     /* padding-bottom: 30px; */
     color: #394150;
-    padding-bottom: clamp(40px, 4vw, 80px);
+    padding-bottom: clamp(30px, 4vw, 80px);
 }
 
 #card-one span {
@@ -179,7 +177,6 @@ main div picture img {
         height: auto;
         /* max-width: 1000px; */
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        grid-template-rows: repeat(3, minmax(0, 1fr));
     }
 
     h2 {
@@ -211,7 +208,6 @@ main div picture img {
         height: auto;
         max-width: 2560px;
         grid-template-columns: repeat(4, minmax(0, 1fr));
-        grid-template-rows: repeat(2, minmax(0, 1fr));
 
         grid-column: 1;
         grid-row: 1;
