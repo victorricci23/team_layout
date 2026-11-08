@@ -5,8 +5,7 @@
 }
 
 p {
-    font-size: 20px;
-    color: #394150;
+    font-size: 16px;
 }
 
 body {
@@ -62,12 +61,13 @@ main div picture img {
 
 #card-one p {
     max-width: 420px;
-    padding-bottom: 30px;
-    /* padding-bottom: clamp(30px, 4vw, 80px); */
+    /* padding-bottom: 30px; */
+    color: #394150;
+    padding-bottom: clamp(30px, 4vw, 80px);
 }
 
 #card-one span {
-    font-size: 20px;
+    font-size: 16px;
     color: #263FA9;
 }
 
